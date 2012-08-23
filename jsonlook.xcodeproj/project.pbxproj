@@ -256,7 +256,7 @@
 		46D7C0BA14892E0F009A42EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0440;
 			};
 			buildConfigurationList = 46D7C0BD14892E0F009A42EA /* Build configuration list for PBXProject "jsonlook" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -382,6 +382,7 @@
 		46D7C0E014892E0F009A42EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = jsonlook/Prefix.pch;
 				INFOPLIST_FILE = jsonlook/Info.plist;
@@ -394,6 +395,7 @@
 		46D7C0E114892E0F009A42EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = jsonlook/Prefix.pch;
 				INFOPLIST_FILE = jsonlook/Info.plist;
@@ -422,6 +424,7 @@
 				46D7C0E114892E0F009A42EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
